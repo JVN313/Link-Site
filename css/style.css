@@ -39,13 +39,14 @@ header {
 
 footer {
     margin-top: 50px;
-
+    border-top: 3px solid black;
 }
 
 /* Img Styles */
 .MainImg {
     border-radius: 100%;
     width: 250px;
+    border: 5px solid black;
 
 }
 
