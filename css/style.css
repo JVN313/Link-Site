@@ -1,0 +1,118 @@
+/* Base Styles */
+body {
+    text-align: center;
+    background-image: url("../Img/background.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+a {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+a:hover {
+    color: rgba(245, 245, 245, 0.50);
+
+}
+
+a:link {
+    text-decoration: none ;
+  }
+
+a:visited {
+    color: rgba(245, 245, 245, 0.50);
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+
+}
+
+/* Img Styles */
+.MainImg {
+    border-radius: 100%;
+    width: 250px;
+
+}
+
+/* Link Styles */
+ul li {
+    font-size: xx-large;
+    margin-bottom: 40px;
+    
+}
+
+.Facebook {
+    background-color: rgba(138, 43, 226, 0.45);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.Instagram {
+    background-color: rgba(138, 43, 226, 0.45);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.Github {
+    background-color: rgba(138, 43, 226, 0.45);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.Linkedin {
+    background-color: rgba(138, 43, 226, 0.45);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* Full Screen */
+
+@media screen and (min-width: 700px) {
+    .MainImg {
+      border-radius: 10%;
+      width: 500px;
+    }
+
+    .MainContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+    }
+
+    .links {
+        margin-top: 50px;
+        font-size: xx-large;
+    }
+
+    h3 {
+        font-size: x-large;
+        color: aliceblue;
+    }
+  }
