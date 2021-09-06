@@ -3,9 +3,12 @@ body {
     text-align: center;
     background-image: url("../Img/background.JPG");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-size: fill;
 
+}
+
+h3 {
+    color: aliceblue;
 }
 
 a {
@@ -57,40 +60,12 @@ ul li {
     
 }
 
-.Facebook {
+.Facebook, .Instagram, .Github, .Linkedin {
     background-color: rgba(138, 43, 226, 0.45);
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-
-.Instagram {
-    background-color: rgba(138, 43, 226, 0.45);
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.Github {
-    background-color: rgba(138, 43, 226, 0.45);
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.Linkedin {
-    background-color: rgba(138, 43, 226, 0.45);
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
 }
 
 /* Full Screen */
@@ -114,6 +89,5 @@ ul li {
 
     h3 {
         font-size: x-large;
-        color: aliceblue;
     }
   }
