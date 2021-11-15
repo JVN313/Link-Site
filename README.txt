@@ -1,1 +1,1 @@
-Basic LinkTree style site to practice/learn wb dev skills
+Basic LinkTree style site to practice/learn web dev skills
